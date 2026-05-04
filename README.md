@@ -1,2 +1,2 @@
 # BFP-Paper
-Full code for the paper Global implementation of biodiversity finance plans
+Full code, figures and data for the paper: Global implementation of biodiversity finance plans. 
