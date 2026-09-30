@@ -1,0 +1,4 @@
+group,variable,level,n,n_countries,n_implemented,implementation_rate
+Source,source_group,public,191,31,42,0.2198952879581152
+Source,source_group,private,45,23,12,0.26666666666666666
+Source,source_group,blended,101,31,26,0.25742574257425743

@@ -1,0 +1,4 @@
+sample,n_country_instrument_observations,n_unique_instrument_categories,n_countries,n_implemented,n_not_implemented
+Complete database,477,67,32,209,268
+BFP-listed observations,337,60,32,80,257
+Post-BFP observations,140,42,29,129,11

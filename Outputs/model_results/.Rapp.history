@@ -1,0 +1,2 @@
+load("/Users/juliamao/Library/CloudStorage/OneDrive-LundUniversity/LU_Papers/BIOFIN paper/Revision_Nature Communication 22 July 2026/Rcode_biofin_paper/Outputs/model_results/fit_rq2_baseline.rds")
+load("/Users/juliamao/Library/CloudStorage/OneDrive-LundUniversity/LU_Papers/BIOFIN paper/Revision_Nature Communication 22 July 2026/Rcode_biofin_paper/Outputs/model_results/fit_rq2_full.rds")

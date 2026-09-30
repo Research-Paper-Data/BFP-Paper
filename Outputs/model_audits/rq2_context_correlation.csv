@@ -1,0 +1,4 @@
+variable,gdppc_bfp_window_z,GE_bfp_window_z,oda_bfp_window_pc_z
+gdppc_bfp_window_z,1,0.49698112921629684,-0.13460870852183734
+GE_bfp_window_z,0.49698112921629684,1,0.06278779029035322
+oda_bfp_window_pc_z,-0.13460870852183734,0.06278779029035322,1

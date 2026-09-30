@@ -1,0 +1,31 @@
+ Family: bernoulli 
+  Links: mu = logit 
+Formula: implemented ~ source_group + grant + debt_equity + risk + fiscal + market + regulatory + generate + realign + avoid + deliver + (1 | country) 
+   Data: data (Number of observations: 337) 
+  Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
+         total post-warmup draws = 8000
+
+Multilevel Hyperparameters:
+~country (Number of levels: 32) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     1.14      0.28     0.67     1.78 1.00     2811     4119
+
+Regression Coefficients:
+                    Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept              -1.30      0.59    -2.46    -0.17 1.00     6767     5603
+source_groupprivate     0.03      0.47    -0.90     0.94 1.00     7697     6096
+source_groupblended     0.26      0.41    -0.54     1.05 1.00     6392     5910
+grant                  -0.13      0.35    -0.82     0.56 1.00     7972     6247
+debt_equity            -0.13      0.44    -0.97     0.73 1.00     8237     6292
+risk                    0.49      0.64    -0.78     1.70 1.00    11450     6415
+fiscal                  0.21      0.36    -0.50     0.93 1.00     8174     6300
+market                 -0.14      0.41    -0.97     0.67 1.00     6891     5857
+regulatory             -0.21      0.42    -1.02     0.61 1.00     8534     6130
+generate                0.09      0.36    -0.63     0.79 1.00     6216     5931
+realign                -0.21      0.39    -0.97     0.53 1.00     8383     5988
+avoid                  -0.25      0.33    -0.91     0.38 1.00     8285     6200
+deliver                -0.00      0.33    -0.65     0.65 1.00     8026     6381
+
+Draws were sampled using sample(hmc). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

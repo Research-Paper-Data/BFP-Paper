@@ -1,0 +1,13 @@
+group,variable,level,n,n_countries,n_implemented,implementation_rate
+Mechanism,grant,0,254,32,59,0.23228346456692914
+Mechanism,grant,1,83,28,21,0.25301204819277107
+Mechanism,debt_equity,0,281,32,64,0.2277580071174377
+Mechanism,debt_equity,1,56,22,16,0.2857142857142857
+Mechanism,risk,0,334,32,78,0.23353293413173654
+Mechanism,risk,1,3,3,2,0.6666666666666666
+Mechanism,fiscal,0,195,32,48,0.24615384615384617
+Mechanism,fiscal,1,142,32,32,0.22535211267605634
+Mechanism,market,0,188,31,43,0.22872340425531915
+Mechanism,market,1,149,32,37,0.24832214765100671
+Mechanism,regulatory,0,95,30,27,0.28421052631578947
+Mechanism,regulatory,1,242,32,53,0.2190082644628099

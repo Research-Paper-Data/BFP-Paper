@@ -1,0 +1,23 @@
+ Family: bernoulli 
+  Links: mu = logit 
+Formula: implemented ~ years_since_bfp_z + gdppc_bfp_window_z + GE_bfp_window_z + oda_bfp_window_pc_z + (1 | country) 
+   Data: data (Number of observations: 337) 
+  Draws: 4 chains, each with iter = 4000; warmup = 2000; thin = 1;
+         total post-warmup draws = 8000
+
+Multilevel Hyperparameters:
+~country (Number of levels: 32) 
+              Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+sd(Intercept)     1.17      0.31     0.64     1.88 1.00     2510     3931
+
+Regression Coefficients:
+                    Estimate Est.Error l-95% CI u-95% CI Rhat Bulk_ESS Tail_ESS
+Intercept              -1.48      0.28    -2.07    -0.97 1.00     4070     4584
+years_since_bfp_z      -0.39      0.29    -0.98     0.14 1.00     3667     5220
+gdppc_bfp_window_z      0.16      0.28    -0.38     0.71 1.00     3950     5538
+GE_bfp_window_z        -0.01      0.31    -0.62     0.62 1.00     3867     4201
+oda_bfp_window_pc_z    -0.45      0.28    -1.03     0.09 1.00     5430     5163
+
+Draws were sampled using sample(hmc). For each parameter, Bulk_ESS
+and Tail_ESS are effective sample size measures, and Rhat is the potential
+scale reduction factor on split chains (at convergence, Rhat = 1).

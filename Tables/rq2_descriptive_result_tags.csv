@@ -1,0 +1,9 @@
+group,variable,level,n,n_countries,n_implemented,implementation_rate
+Result,generate,0,131,31,27,0.20610687022900764
+Result,generate,1,206,32,53,0.25728155339805825
+Result,realign,0,272,32,67,0.24632352941176472
+Result,realign,1,65,26,13,0.2
+Result,avoid,0,237,32,60,0.25316455696202533
+Result,avoid,1,100,31,20,0.2
+Result,deliver,0,210,32,50,0.23809523809523808
+Result,deliver,1,127,32,30,0.23622047244094488
